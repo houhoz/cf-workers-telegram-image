@@ -13,22 +13,30 @@
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2023-10-25 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
-    "@types/node": "20.8.9",
-    "@types/react": "18.2.33",
-    "@types/react-dom": "18.2.14",
-    "autoprefixer": "10.4.16",
-    "eslint": "8.52.0",
-    "eslint-config-next": "14.0.0",
-    "next": "14.0.0",
-    "postcss": "8.4.31",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.5",
-    "typescript": "5.2.2"
+    "@radix-ui/react-slot": "^1.0.2",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "^10.4.16",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "lucide-react": "^0.290.0",
+    "next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss": "^3.3.5",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.7.2",
+    "@cloudflare/workers-types": "^4.20231025.0",
     "eslint-plugin-next-on-pages": "^1.7.2",
-    "vercel": "^32.5.0"
+    "vercel": "^32.5.0",
+    "wrangler": "^3.15.0"
   }
 }
