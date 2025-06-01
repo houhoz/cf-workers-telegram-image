@@ -1,9 +1,7 @@
-import { cloudflare } from '@cloudflare/vite-plugin';
-import { defineConfig } from 'vite';
-import type { PluginOption } from 'vite';
-import ssrPlugin from 'vite-ssr-components/plugin';
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { cloudflare } from "@cloudflare/vite-plugin";
 
 export default defineConfig({
-  plugins: [tailwindcss(), cloudflare(), ssrPlugin()] as PluginOption[],
+  plugins: [react(), cloudflare()],
 });
