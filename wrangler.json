@@ -34,7 +34,10 @@
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
-	// "vars": { "MY_VARIABLE": "production_value" },
+	// "vars": { 
+	// 	"TG_BOT_TOKEN": "", 
+	// 	"TG_CHAT_ID": "" 
+	// }
 	/**
 	 * Note: Use secrets to store sensitive data.
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
