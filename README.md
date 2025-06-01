@@ -1,8 +1,10 @@
 # Telegram 图片上传工具
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/vite-react-template)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/houhoz/cf-workers-telegram-image)
 
 一个基于 Cloudflare Workers 的图片上传工具，可以将图片直接上传到 Telegram 频道或群组，并获取图片的 file_id，方便后续使用。
+
+![预览图](./preview.png)
 
 ## ✨ 功能特点
 
@@ -27,7 +29,7 @@
 1. 克隆项目并安装依赖：
 
 ```bash
-git clone https://github.com/yourusername/cf-workers-telegram-image.git
+git clone https://github.com/houhoz/cf-workers-telegram-image.git
 cd cf-workers-telegram-image
 npm install
 ```
@@ -93,9 +95,15 @@ npm run deploy
 3. 点击"上传到 Telegram"按钮将图片发送到配置的 Telegram 频道/群组
 4. 上传成功后，可以查看图片信息并复制 file_id 供其他应用使用
 
+## 🔗 在线演示
+
+访问 [cf-workers-telegram-image.houyazhao.workers.dev](https://cf-workers-telegram-image.houyazhao.workers.dev/) 查看在线演示。
+
 ## 🤝 贡献
 
 欢迎提交 Issue 或 Pull Request 来改进这个项目！
+
+项目仓库：[https://github.com/houhoz/cf-workers-telegram-image](https://github.com/houhoz/cf-workers-telegram-image)
 
 ## 📄 许可证
 
